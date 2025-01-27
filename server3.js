@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise'); // Utiliser mysql2/promise
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
-const user_file_path = path.join('C:/Users/Mathis/OneDrive/Documents/Programs/BackEndAPI', '/user.json')
+const user_file_path = path.join('/user.json')
 const app = express();
 const PORT = 3000;
 
